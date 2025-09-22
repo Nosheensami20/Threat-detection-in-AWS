@@ -1,8 +1,0 @@
-EventBridge Event Pattern
-{
-  "source": ["aws.guardduty"],
-  "detail-type": ["GuardDuty Finding"],
-  "detail": {
-    "type": ["UnauthorizedAccess:EC2/SSHBruteForce"]
-  }
-}
